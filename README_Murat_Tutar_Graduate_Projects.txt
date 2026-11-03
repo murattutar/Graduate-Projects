@@ -8,9 +8,25 @@ Murat Tutar
 Background
 ----------
 - University of Cologne (Universität zu Köln), M.Sc. (Business Administration) — Supply Chain Management track
-- Expected graduation: 2026
+- Graduated: 14 August 2026 | Overall grade: 1.6 | Master's thesis: 1.0 (German scale; 1.0 best)
+- Department: Operations Management
+- Current role: Junior Data Scientist at Canada Life Assurance Europe plc, full-time since October 2026; previously Data Scientist working student from May 2025 to September 2026.
 - Focus areas: data-driven supply chain decision-making, behavioral operations, optimization, and analytics
-- Core toolkit: Python (pandas/numpy), statistical modeling & experimentation, simulation, and mathematical optimization (Gurobi)
+- Core toolkit: Python (pandas/numpy), statistical modeling & experimentation, simulation, and mathematical optimization (Gurobi; SciPy/HiGHS for the master's thesis)
+
+## Master's thesis
+
+**A Minimax Rescheduling Model for Smoothing Time-Dependent Truck Demand in B2B Delivery Scheduling**
+
+Completed on 14 August 2026 at the University of Cologne, Department of Operations Management. Thesis grade: **1.0**; final degree grade: **1.6** (German grading scale; 1.0 is best).
+
+[Read the submitted thesis PDF](Murat_Tutar_Master_Thesis_2026.pdf) · [Explore the model, source code and generated data](master-thesis/)
+
+The thesis develops a mixed-integer linear programming (MILP) model that shifts customer demand profiles within permitted time windows to minimize peak simultaneous truck demand. Disruption budgets and lexicographic objectives control the number and size of schedule changes. A second-stage recovery model studies partial implementation of proposed changes.
+
+The numerical study uses **generated, empirically motivated data**, not operational company records. Across 30 simulated planning days, up to ±60 minutes of flexibility reduced the mean daily peak by 36.07% in the unrestricted model. A 20% movement budget achieved a 17.96% mean reduction while moving 17.49% of customers on average. These are model results on the generated dataset, not measured business savings.
+
+Implementation: Python, NumPy, pandas, SciPy MILP with HiGHS, and Matplotlib.
 
 Contents (this folder)
 ----------------------
@@ -18,8 +34,9 @@ Contents (this folder)
 2) Prescriptive Analytics & Mathematical Optimization with Gurobi.ipynb
 3) Auctions & Dynamic Game Theory - Analytical & Simulation-Based Mathematical Optimization Applications in Strategic Procurement.ipynb
 4) Modeling and Analysis of Workload Effect on Fatigue in Gig Delivery - Research Proposal.pdf
-5) Giving_Drivers_Autonomy_to_Reorder_Next_Three_Stops.pdf
+5) Algorithm-Based Optimal Delivery Schedule and The Need for Human Intervention in Real-Time Traffic - Research Proposal.pdf
 6) GenAI in Optimal Supplier Selection - Research Proposal.pdf
+7) Murat_Tutar_Master_Thesis_2026.pdf and master-thesis/ (submitted thesis, model code and generated data)
 
 
 Project Summaries
@@ -127,7 +144,7 @@ Design & analysis plan:
 
 5) Driver-Led Stop Reordering at DHL (Field Experiment Proposal PDF)
 --------------------------------------------------------------------
-File: "Giving_Drivers_Autonomy_to_Reorder_Next_Three_Stops.pdf"
+File: "Algorithm-Based Optimal Delivery Schedule and The Need for Human Intervention in Real-Time Traffic - Research Proposal.pdf"
 Authors: Roman Finger, Serguei Anghelov, Murat Tutar
 
 What it is:
@@ -171,5 +188,5 @@ Implementation notes:
 
 Notes
 =====
-- These artifacts are course/seminar projects created during graduate study.
+- These artifacts include the completed master's thesis and course/seminar projects created during graduate study.
 - Notebooks contain code + narrative; PDFs contain research proposals and experimental designs.
